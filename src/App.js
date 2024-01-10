@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/register" element={<Register />}></Route>
+        <Route path="/" element={<Register />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/create-blog" element={<CreateBlog />}></Route>
         <Route path="/my-blogs" element={<MyBlogs />}></Route>
